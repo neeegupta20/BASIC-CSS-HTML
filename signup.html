@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <a href="home.html"
+          ><img class="logo" src="LOGO.png" height="20" width="150"
+        /></a>
+      </div>
+      <div style="display: flex; justify-content: space-evenly">
+        
+        <div class="navdiv4">
+          <a
+            class="navdiv4"
+            style="text-decoration: none"
+            target="_blank"
+            href="signup.html"
+            >SIGN IN</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="sign1">
+      <form class="form">
+        <div class="flex-column">
+          <label>EMAIL</label>
+        </div>
+        <div class="inputForm">
+          <input
+            id="email"
+            type="text"
+            class="input"
+            placeholder="ENTER YOUR EMAIL"
+          />
+        </div>
+
+        <div class="flex-column">
+          <label>PASSWORD</label>
+        </div>
+        <div class="inputForm">
+          <input
+            id="pass"
+            type="password"
+            class="input"
+            placeholder="ENTER YOUR PASSWORD"
+          />
+        </div>
+
+        <div class="flex-row">
+          <div>
+            <input type="checkbox" />
+            <label>Remember me </label>
+          </div>
+          <span class="span">Forgot Password?</span>
+        </div>
+        <button onclick="signin()" class="button-submit">SIGN IN</button>
+        <p class="p">
+          Don't have an account?
+          <span class="span">Sign Up</span>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
